@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:background="#da4c3f"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="252dp"
+        android:id="@+id/imageView2"
+        android:src="@drawable/nerf_icon"
+        android:layout_marginTop="135dp"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Neural Network Nerf Turret"
+        android:textSize="30sp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/textView3"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.13"
+        android:fontFamily="sans-serif"
+        android:textAlignment="center" />
+</LinearLayout>
